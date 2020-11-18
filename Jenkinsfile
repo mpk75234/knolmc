@@ -5,7 +5,7 @@ pipeline {
 	      steps {
 		echo "Hello from KNOLMC #FTW!!!"
 		  script {
-			rspec `pwd`/spec/basic_spec.rb
+			rspec /home/ubuntu/KNOLMC/spec/basic_spec.rb
 				}
 			}
 		}
