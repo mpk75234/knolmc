@@ -4,9 +4,7 @@ pipeline {
 	    stage("Stage 1") {
 	      steps {
 		echo "Hello from KNOLMC #FTW!!!"
-		  script {
-			rspec /home/ubuntu/KNOLMC/spec/basic_spec.rb
-				}
+	       	./home/ubuntu/.rvm/gems/ruby-2.5.8/bin/rspec spec/basic_spec.rb 	
 			}
 		}
 	}
