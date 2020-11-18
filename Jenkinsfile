@@ -3,8 +3,7 @@ pipeline {
 	  stages {
 	    stage("Stage 1") {
 	      steps {
-		echo "Hello from KNOLMC #FTW!!!"
-	       	./home/ubuntu/.rvm/gems/ruby-2.5.8/bin/rspec spec/basic_spec.rb 	
+	./home/ubuntu/.rvm/gems/ruby-2.5.8/bin/rspec spec/basic_spec.rb
 			}
 		}
 	}
